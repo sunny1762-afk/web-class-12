@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.html{
+    font-family: pretendard;
+    width: 1920px;
+}
+.f{
+    background-image:url(../img/sub_vis01_02.jpg);
+    height:250px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: 1920px 250px;
+}
+.e{
+    border: 1px solid yellow;
+}
+.a{
+    border: 1px solid red;
+    font-size: 30px;
+}
+.b{
+    border: 1px solid blueviolet;
+    font-size: 52px;
+    text-align: center;
+    white-space: pre;
+}
+.c{
+    border: 1px solid blue;
+    font-size: 35px;
+    text-align: center;
+}
+.d{
+    text-align: center;
+}
+p{
+    border: 1px solid green;
+    white-space: pre;
+}
