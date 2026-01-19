@@ -1,0 +1,17 @@
+*{margin: 0;padding: 0;}
+.box{
+    border: 10px solid red;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:flex-end;
+    align-items: flex-end;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+}
+.box section{
+    border: 1px solid blue;
+}
