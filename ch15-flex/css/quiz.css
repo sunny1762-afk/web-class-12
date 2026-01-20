@@ -61,3 +61,24 @@
     width: 800px;
     height: 300px;
 }
+
+.box6{
+    width: 800px;
+    height:300px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+.box6 div{
+    width: 400px;
+}
+
+.box7{
+    width: 800px;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+}
+.box div{
+    width: 100px;
+    height: 100px;
+}
