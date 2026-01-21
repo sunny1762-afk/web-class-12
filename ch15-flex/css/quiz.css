@@ -5,7 +5,9 @@
 .c{background-color: blue;}
 .d{background-color: gold;}
 .e{background-color: pink;}
-.box{background-color: gray;}
+.box{background-color: gray;
+    margin-bottom: 300px;
+}
 .box1{
     width: 800px;
     height: 100px;
@@ -81,4 +83,62 @@
 .box div{
     width: 100px;
     height: 100px;
+}
+
+.box8{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.box div{
+    width: 100px;
+    height: 100px;
+}
+.box8-1{
+    display: flex;
+}
+.box8-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box9{
+    width: 800px;
+    height: 300px;
+    display: flex;
+}
+.box9-1{
+    width: 500px;
+    display: flex;
+}
+.box9-1 div{
+    flex: 1;
+}
+.box9-2{
+    width: 300px;
+    height: 100px;
+}
+
+.box10{
+    width: 800px;
+    height: 300px;
+    display: flex;
+}
+.box10-1{
+    width: 500px;
+    justify-content: space-between;
+}
+.box10-1 div{
+    
+    flex: 1;
+}
+.box10-2{
+    width: 300px;
+    height: 100px;
+}
+.box10-3{
+    width: 300;
+}
+.box10-3 div{
+    flex: 1;
 }

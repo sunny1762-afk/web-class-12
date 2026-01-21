@@ -1,0 +1,31 @@
+html{
+    font-size: 18px;
+    font-weight: 400px;
+}
+.aboreto{
+    font-family: "Aboreto", system-ui;
+}
+.banner{
+    border: 1px solid red;
+    height: 599px;
+    background: url(../img/banner.png) no-repeat 50% 50% / cover;
+}
+.banner h1{
+    border: 1px solid red;
+    font-size: 50px;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 270px;
+} 
+h2{
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    border: 1px solid red;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
