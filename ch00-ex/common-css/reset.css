@@ -13,6 +13,9 @@ a{
 ul,ol{
     list-style: none;
 }
-address{
+em,address,i{
     font-style: inherit;
+}
+strong,b{
+    font-weight: inherit;
 }
