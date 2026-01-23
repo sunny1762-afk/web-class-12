@@ -19,3 +19,10 @@ em,address,i{
 strong,b{
     font-weight: inherit;
 }
+img{
+    max-width: 100%;
+}
+table{
+    border-collapse: collapse;
+    /* 겹치는선을 합치는속성 */
+}

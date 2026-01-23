@@ -1,0 +1,76 @@
+html{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Pretendard';
+}
+.stp1{
+    font-family: "abo";
+}
+.common-frame{
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+.banner{
+    height: 599px;
+    border-radius: 2.5rem;
+    background: url(../img/banner.jpg) no-repeat 50% 50% / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+.common-frame h2{
+    font-size: 7.5rem;
+    line-height: 90%;
+    text-transform: uppercase;
+    padding-top: 6rem;
+}
+.desc1{
+    font-size: 1rem;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-top: 2.4rem 0;
+}
+.gallery{
+    display: flex;
+    gap: 1rem;
+}
+.gallery figure{
+    flex: 1;
+    aspect-ratio: 520/434;
+}
+.gallery figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.common-frame h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.desc2{
+    font-size: 1rem;
+    line-height: 140%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+.gallery.type2 figure{
+    flex: 1;
+    aspect-ratio: 790/434;
+    /* 기존스타일에서 조금만수정하고싶을 때 */
+}
+.wrap{
+    background: url(../img/bg.png) no-repeat 50% 50% / 100% auto;
+} 
