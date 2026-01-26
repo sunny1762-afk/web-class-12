@@ -12,75 +12,75 @@
     width: 800px;
     height: 100px;
     display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
 }
 .box1 div{
     width: 100px;
-    height: 100px;
 }
 
 .box2{
-    display: flex;
     width: 800px;
     height: 100px;
+    display: flex;
 }
 .box2 div{
     width: 100px;
-    height: 100px;
 }
-.box2 .a{order: 2;}
-.box2 .b{order: 4;}
-.box2 .c{order: 1;}
-.box2 .d{order: 5;}
-.box2 .e{order: 3;}
+.box2.a{order: 2;}
+.box2.b{order: 4;}
+.box2.c{order: 1;}
+.box2.d{order: 5;}
+.box2.e{order: 3;}
 
 .box3{
-    width: 800px;
-    height: 100px;
     display: flex;
+    width: 800px;
+    height: 300px;
     justify-content: flex-end;
-
 }
+.box3 div{
+    width: 100px;
+    height: 100px;
+}
+
 .box4{
     width: 800px;
     height: 300px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 .box4 div{
     width: 100px;
     height: 100px;
-}
-.box5{
     display: flex;
-    flex-direction: row-reverse;
     align-items: flex-end;
     justify-content: space-between;
+    flex-direction: row-reverse;
+
 }
-.box div{
+.box5 div{
     width: 800px;
     height: 300px;
 }
 
 .box6{
     width: 800px;
-    height:300px;
-    display: flex; 
+    height: 300px;
+    display: flex;
     flex-wrap: wrap;
 }
 .box6 div{
     width: 400px;
+    height: 100px;
 }
 
 .box7{
     width: 800px;
-    height:300px;
+    height: 300px;
     display: flex;
     justify-content: space-between;
 }
-.box div{
+.box7 section{
     width: 100px;
     height: 100px;
 }
@@ -91,54 +91,15 @@
     display: flex;
     justify-content: space-between;
 }
-.box div{
+.box8 div{
     width: 100px;
     height: 100px;
 }
-.box8-1{
-    display: flex;
-}
-.box8-2{
-    display: flex;
-    flex-direction: row-reverse;
-}
+
 .box9{
     width: 800px;
-    height: 300px;
+    height: 800px;
+}
+.box9.box9-1{
     display: flex;
-}
-.box9-1{
-    width: 500px;
-    display: flex;
-}
-.box9-1 div{
-    flex: 1;
-}
-.box9-2{
-    width: 300px;
-    height: 100px;
-}
-
-.box10{
-    width: 800px;
-    height: 300px;
-    display: flex;
-}
-.box10-1{
-    width: 500px;
-    justify-content: space-between;
-}
-.box10-1 div{
-    
-    flex: 1;
-}
-.box10-2{
-    width: 300px;
-    height: 100px;
-}
-.box10-3{
-    width: 300;
-}
-.box10-3 div{
-    flex: 1;
 }
