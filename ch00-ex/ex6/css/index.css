@@ -1,0 +1,42 @@
+html{
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-weight: 600;
+}
+.stp1{
+    font-family: "abo";
+}
+.common-frame{
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.common-frame ul{
+    display: flex;
+} 
+.common-frame ul li{
+    padding: 38px 20px;
+    font-family: Pretendard;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.banner{
+    height: 700px;
+    background: url(../img/banner.jpg) no-repeat 50% 50% / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    color: white;
+    width: 1030px;
+    height: 174px;
+    font-weight: 400;
+    font-size:150px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
