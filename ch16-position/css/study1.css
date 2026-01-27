@@ -3,8 +3,8 @@
     height: 500px;
     background: gray;
     position: relative;
-    left: 0px;
-    bottom: 100px;
+    left: 50px;
+    top: -20px;
     opacity: 0.5;
 }
 .box2{
