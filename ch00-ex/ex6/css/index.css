@@ -6,6 +6,9 @@ html{
 .stp1{
     font-family: "abo";
 }
+header{
+    border-bottom: 2px solid red;
+}
 .common-frame{
     display: flex;
     width: 1600px;
@@ -14,14 +17,14 @@ html{
 }
 .menubar{
     display: flex;
-    /* align-items: center; */
 } 
-.menubar li{
-    padding: 38px 20px;
-    font-family: Pretendard;
+.menubar a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
     font-weight: 600;
     line-height: 100%;
-    text-align: center;
     text-transform: uppercase;
 }
 .banner{
