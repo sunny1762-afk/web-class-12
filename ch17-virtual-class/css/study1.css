@@ -1,0 +1,63 @@
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+.a:hover{
+    /* a:hover 마우스가 올려진 a 클래스 라고 해석 */
+    background-color: blue;
+    width: 200px;
+    font-size: 2rem;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.b:active{
+    /* .b:active 마우스 누르고있는 b 클래스 라고 해석 */
+    background-color: black;
+    color: white;
+    transition: 1s;
+    /* transition: 1s; -> 중간단계 수치화가능한거다사용 (효과를 부드럽게줄때사용) */
+}
+.box{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+}
+.c{
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;
+}
+.box .c:hover{
+    /* box클래스 안의 c클래스에 마우스를 올리면 */
+    font-size: 2rem;
+}
+.box:hover .c{
+    /* 마우스가 올려진 box클래스 안의 c클래스를 선택 */
+    background-color: gold;
+}
+.d:before{
+    background-color: yellow;
+    content: "추가된 내용 1";
+    display: block;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    /* 글자처럼 baseline기준으로배치됨(나란히) */
+    justify-content: center;
+    align-items: center;
+}
+.d:after{
+    content: "추가된 내용 2";
+    background-color: pink;
+    display: block;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
