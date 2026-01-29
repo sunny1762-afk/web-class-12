@@ -138,3 +138,71 @@
     right: calc(50% - 50px);
     top: calc(50% - 50px);
 }
+.box5{
+    position: relative;
+}
+.box5 div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.box5 .a{
+    left: -100px;
+    top:-100px;
+    z-index: 1;
+}
+.box5 .b{
+    left: -50px;
+    top: -50px;
+}
+.box5 .c{
+    left: 0;
+    top: 0;
+    z-index: 1
+}
+.box5 .d{
+    left: 50px;
+    top: 50px;
+}
+.box5 .e{
+    left: 100px;
+    top: 100px;
+    z-index: 1
+}
+.box6{
+    display: flex;
+}
+.box6 .a{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6 .c{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 0;
+}
+.box6 .b{
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.box6 .d{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+}
+.box6 .e{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+}
