@@ -1,0 +1,54 @@
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 10px solid red;
+    color: white;
+    /* transition-property: all;
+    /* 변하는 스타일 모두를 선택하겠다.(기본값) */
+    /* transition-duration: 5s; */
+    /* 변하는 기간 */
+    /* transition-timing-function: ease; */
+    /* 지정한 기간동안 바뀌는 속도감 linear(일정한속도,거리이동), ease(뒤로갈수록 속도줄어든다) */
+    /* transition-delay: 0s; */
+    /* 지정한 시간 뒤에 애니메이션실행 */
+    /* transition:
+    width 1s ease 0s,
+    height 1s ease 1s,
+    background-color 1s ease 2s; */
+    /* 아래와같이 축약형 코드 한 줄로 표현 가능 */
+    transition: all 1s ease 0s;
+}
+.a:hover{
+    width: 600px;
+    height: 600px;
+    background-color: pink;
+    padding: 30px;
+    display: flex;
+    /* 숫자개념이없는 속성들은 transition적용이안됨 (ex. flex) */
+}
+.box{
+    background-color: #ddd;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+}
+.b{
+    background-color: orange;
+    height: 200px;
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+.box:hover .b{
+    opacity: 1;
+}
+.c{
+    background-color: green;
+    height: 200px;
+    display: none;
+    /* 안보이게함 */
+}
+.box:hover .c{
+    display: block;
+    /* 다시보이게됨 */
+}
