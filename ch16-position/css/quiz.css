@@ -9,14 +9,30 @@
     width: 800px;
     height: 300px;;
 }
-.a{background-color: red;}
-.b{background-color: green;}
-.c{background-color: blue;}
-.d{background-color: yellow;}
-.e{background-color: purple;}
+.a{
+    background-color: red;
+    transition: all 1s ease 0s;
+}
+.b{
+    background-color: green;
+    transition: all 1s ease 0s;
+}
+.c{
+    background-color: blue;
+    transition: all 1s ease 0s;
+}
+.d{
+    background-color: yellow;
+    transition: all 1s ease 0s;
+}
+.e{
+    background-color: purple;
+    transition: all 1s ease 0s;
+}
 
 .box1{
     position: relative;
+    overflow: hidden;
 }
 .box1 div{
     width: 100px;
@@ -27,9 +43,17 @@
     left: 0;
     top: 0;
 }
+.box1:hover .a{
+    left: -100px;
+    top: -100px;
+}
 .box1 .b{
     left: 0;
     bottom: 0;
+}
+.box1:hover .b{
+    left: -100px;
+    bottom: -100px;
 }
 .box1 .c{
     left: calc(50% - 50px);
@@ -39,13 +63,21 @@
     top: 0;
     right: 0;
 }
+.box1:hover .d{
+    right: -100px;
+    top:-100px;
+}
 .box1 .e{
     right: 0;
     bottom: 0;
 }
-
+.box1:hover .e{
+    right: -100px;
+    bottom:-100px;
+}
 .box2{
     position: relative;
+    overflow: hidden;
 }
 .box2 div{
     width: 100px;
@@ -56,21 +88,41 @@
     left: -100px;
     top: -100px;
 }
+.box2:hover .a{
+    left: 0;
+    top: 0;
+}
 .box2 .b{
     left: -100px;
     bottom: -100px;
+}
+.box2:hover .b{
+    left: 0;
+    bottom: 0;
 }
 .box2 .c{
     left:calc(50% - 50px);
     bottom:-100px; 
 }
+.box2:hover .c{
+    left:calc(50% - 50px);
+    bottom:calc(50% - 50px); 
+}
 .box2 .d{
     right: -100px;
     top:  -100px;
 }
+.box2:hover .d{
+    right: 0;
+    top:  0;
+}
 .box2 .e {
     right: -100px;
     bottom: -100px;
+}
+.box2:hover .e {
+    right: 0;
+    bottom: 0;
 }
 .box3{
     position: relative;

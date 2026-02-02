@@ -1,0 +1,59 @@
+.box{
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 200px auto;
+    transition: all 1s ease 0s;
+}
+.a{background-color: red;}
+.a:hover{transform: translateX(50%);/* a가 가지고있는 너비의 반만큼 이동한다. */}
+
+.b{background-color: blue;}
+.b:hover{transform: translateY(-100px);}
+
+.c{background-color: orange;}
+.c:hover{
+    transform: translateX(100px) translateY(-100px)
+}
+
+.parent{
+    background-color: #eee;
+    height: 700px;
+    perspective: 1000px; 
+    /* 앞,뒤 공간감을 만들어주는 태그 */
+    /* 박스의 앞뒤이동은 부모태그를 만들어 입체공간을 만들어줘야함 */
+    perspective-origin: 50% 50%;
+    /* 소실점변경 */
+}
+.d{background-color: green;}
+.parent:hover .d{transform: translateZ(500px);}
+
+.e{
+    background-color: coral;
+    transform-origin: 100% 100%;
+    /* 중심점변경 */
+;}
+.e:hover{transform: rotate(360deg);}
+
+.f{background-color: darkgoldenrod;}
+.f:hover{transform: rotateX(180deg);}
+
+.g{background-color: salmon;}
+.g:hover{transform: rotateY(180deg);}
+
+.h{background-color: darkcyan;}
+.h:hover{transform: scaleX(200%);}
+
+.i{background-color: chocolate;}
+.i:hover{transform: scaleY(2);}
+/* 정수표현가능 ex. 265% -> 2.65 */
+
+.j{background-color: hotpink;}
+.j:hover{transform: scale(0.7)}
+/* 비율을 유지하면서 확대축소 *30%작아지는것*/
+
+.k{background-color: gold;}
+.k:hover{transform: skewX(30deg);}
+
+.l{background-color: violet;}
+.l:hover{transform: skewY(-30deg);}
