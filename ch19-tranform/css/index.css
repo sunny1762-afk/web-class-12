@@ -57,3 +57,16 @@
 
 .l{background-color: violet;}
 .l:hover{transform: skewY(-30deg);}
+
+.banner{
+    height: 600px;
+    background-color: pink;
+    position: relative;
+}
+.banner div{
+    border: 1px solid red;
+    position: absolute;
+    transform: translate(-50%, -50%) ;
+    left: 50%;
+    top: 50%
+}
