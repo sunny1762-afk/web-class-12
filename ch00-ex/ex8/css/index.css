@@ -10,7 +10,7 @@
     overflow: hidden;
  }
  header:hover{
-    max-height: 800px;
+    height: 800px;
  }
  .inner-header{
     margin: 0 auto;
