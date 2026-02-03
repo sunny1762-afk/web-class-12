@@ -8,9 +8,10 @@
     border: 1px solid red;
     height: 100px;
     overflow: hidden;
+    transition: all 0.6s ease 0s;
  }
  header:hover{
-    height: 800px;
+    height: 366px;
  }
  .inner-header{
     margin: 0 auto;
@@ -18,17 +19,21 @@
     display: flex;
     justify-content: space-between;
  }
- .gnb{
+ .nav{
     display: flex;
     gap: 20px;
+    font-family: Pretendard;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 100%;
+   text-transform: uppercase;
  }
- .gnb>li>a{
+ .nav>li>a{
     border: 1px solid green;
     display: flex;
     height: 100%;
     align-items: center;
  }
-
  .banner{
     background: url(../img/banner.jpg) no-repeat 50% 50% / cover;
     height: 800px;
