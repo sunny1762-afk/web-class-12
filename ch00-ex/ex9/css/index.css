@@ -1,0 +1,80 @@
+html{
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Pretendard';
+}
+header{
+    position: relative;
+    background-color: white;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.inner-header{
+    border: 1px solid blue;
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.gnb{
+    display: flex;
+    padding-bottom: 10px;
+}
+.gnb>li{
+    overflow: hidden;
+    transition: all 0.6s ease 0s;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 100px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.gnb>li>a{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.gnb>li:hover{
+    max-height: 400px;
+}
+.gnb ul>li{
+    margin-bottom: 20px;
+}
+.gnb ul>li:last-of-type{
+    margin-bottom: 0;
+}
+.banner video{
+    margin-top: 100x;
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+.floating{
+    position: absolute;
+    transform: translate(-50%, -130%) ;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+}
+.floating h1{
+    color: white;
+    font-size: 7rem;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.floating p{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
