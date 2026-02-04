@@ -62,7 +62,6 @@ header{
 }
 .floating{
     width: 1600px;
-    border: 1px solid red;
     position:absolute;
     left: 50%;
     top: 50%;
