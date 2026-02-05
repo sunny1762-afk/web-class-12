@@ -14,7 +14,7 @@
 .box section{
     border: 1px solid blue;
 }
-.box section:nth-last-of-type(6){
+.box section:nth-of-type(6){
     background-color: green;
     grid-column: 1/3;
     grid-row: 1/3;
