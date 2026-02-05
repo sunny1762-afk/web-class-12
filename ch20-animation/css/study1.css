@@ -1,0 +1,44 @@
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 200px auto;
+    animation-name: myrotate;
+    animation-duration: 2s;
+    /* 실행되는시간 */
+    animation-timing-function: linear;
+    /* 속도감 일정하게 */
+    animation-delay: 0s;
+    /* 딜레이시간 */
+    animation-iteration-count: infinite;
+    /* 회전수 */
+    animation-direction: normal;
+    /* 방향0->100%방향으로간다. */
+}
+.a:hover{
+    animation-play-state: paused;
+}
+@keyframes myrotate {
+    0%{transform: translateX(0)rotate(0);}
+    100%{transform: translateX(100px)rotate(360deg);}
+}
+/* 애니메이션 등록과정 */
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    margin: 200px auto;
+    animation: bounce 1s ease 0s infinite alternate;
+}
+@keyframes bounce {
+    0%{
+        transform: scale(1);
+    }
+    45.5%{background-color: pink;
+          }
+    100%{
+        transform: scale(2);
+        border-radius: 50%;
+        background-color: red;
+    }
+}
