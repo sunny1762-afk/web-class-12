@@ -1,10 +1,6 @@
-:root{
-    --base-pc:20px;
-    --base-tab:18px;
-    --base-mobile:14px;
-}
-html{
-    font-size: 20px;
+@media (max-width:1920px){
+    html{
+    font-size: var(--base-pc);
     font-weight: 400;
     font-family: 'Pretendard', sans-serif;
 }
@@ -14,6 +10,7 @@ html{
     font-style: normal;
 }
 .banner{
+    border: 1px solid red;
     height: 599px;
     background: url(../img/banner.png) no-repeat 50% 50% / cover;
 }
@@ -58,4 +55,5 @@ html{
 .content figcaption{
     line-height: 140%;
     text-transform: lowercase;
+}
 }
