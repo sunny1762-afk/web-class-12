@@ -18,7 +18,6 @@ html{
     background: url(../img/banner.png) no-repeat 50% 50% / cover;
 }
 .banner h1{
-    border: 1px solid red;
     color: #fff;
     font-size: 2.5rem;
     line-height: 1;
@@ -27,7 +26,6 @@ html{
     padding-top: 270px;
 }
 .content{
-    border: 1px solid red;
     width: 1600px;
     margin: 6rem auto;
 }
@@ -39,15 +37,11 @@ html{
 }
 .content p{
     border-top: 1px solid #000;
-    border: 1px solid red;
     padding: 1rem 0;
     text-transform: uppercase;
     text-align: right;
     line-height: 140%;
     margin-bottom: 3rem;
-}
-.content figure{
-    border: 1px solid green;
 }
 .content figure img{
     width: 1000px;
