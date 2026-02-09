@@ -3,53 +3,85 @@
     --base-tab:18px;
     --base-mobile:14px;
 }
-html{
-    font-size: 20px;
+.aboreto{
+        font-family: "Aboreto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+@media (max-width:1920px) {
+    html{
+    font-size: var(--base-pc);
     font-weight: 400;
     font-family: 'Pretendard', sans-serif;
+    }
+    .banner{
+        height: 599px;
+        background: url(../img/banner.png) no-repeat 50% 50% / cover;
+    }
+    .banner h1{
+        color: #fff;
+        font-size: 2.5rem;
+        line-height: 1;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 270px;
+    }
+    .content{
+        width: 1600px;
+        margin: 6rem auto;
+    }
+    .content h2{
+        font-size: 4rem;
+        line-height: 90%;
+        text-transform: uppercase;
+        margin-bottom: 4rem;
+    }
+    .content p{
+        border-top: 1px solid #000;
+        padding: 1rem 0;
+        text-transform: uppercase;
+        text-align: right;
+        line-height: 140%;
+        margin-bottom: 3rem;
+    }
+    .content figure img{
+        width: 1000px;
+        height: 430px;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+    .content figcaption{
+        line-height: 140%;
+        text-transform: lowercase;
+    }}
+@media (max-width:1024px) {
+    html{
+        font-size:var(--base-tab) ;
+    }
+        .content {
+        width: auto;
+        margin: 0 2rem;
+    }
+    .content figure img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
 }
-.aboreto{
-    font-family: "Aboreto", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-.banner{
-    height: 599px;
-    background: url(../img/banner.png) no-repeat 50% 50% / cover;
-}
-.banner h1{
-    color: #fff;
-    font-size: 2.5rem;
-    line-height: 1;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 270px;
-}
-.content{
-    width: 1600px;
-    margin: 6rem auto;
-}
-.content h2{
-    font-size: 4rem;
-    line-height: 90%;
-    text-transform: uppercase;
-    margin-bottom: 4rem;
-}
-.content p{
-    border-top: 1px solid #000;
-    padding: 1rem 0;
-    text-transform: uppercase;
-    text-align: right;
-    line-height: 140%;
-    margin-bottom: 3rem;
-}
-.content figure img{
-    width: 1000px;
-    height: 430px;
+@media (max-width:768px) {
+    html{
+        font-size:var(--base-mobile) ;
+    }
+     .content {
+        width: auto;
+        margin: 0 1rem;
+    }
+    .content figure img {
+    width: auto;
+    height: 200px;
     object-fit: cover;
     margin-bottom: 1rem;
 }
-.content figcaption{
-    line-height: 140%;
-    text-transform: lowercase;
 }
+
