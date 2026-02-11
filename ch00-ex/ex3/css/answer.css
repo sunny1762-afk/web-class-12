@@ -121,4 +121,7 @@
         height: 200px;
         line-height: 0;
     }
+    .deco-title{
+        font-size: 50px;
+    }
 }
