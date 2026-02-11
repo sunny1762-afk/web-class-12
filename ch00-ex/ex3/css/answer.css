@@ -97,13 +97,7 @@
         width: auto;
         margin: 0 2rem;
     }
-    .desc1 {
-        margin-top: 2rem;
-        line-height: 90;
-        text-align: center;
-        text-transform: uppercase;
-        margin-bottom: 2rem;
-    }
+    
         .cafe figure {
         flex: 1;
         aspect-ratio: 467/434;
@@ -117,5 +111,14 @@
     .common-frame {
         width: auto;
         margin: 0 1rem;
+    }
+    .cafe{
+        display: flex;
+        flex-direction: column;      
+    }
+         .cafe figure {
+        flex: 1;
+        height: 200px;
+        line-height: 0;
     }
 }
