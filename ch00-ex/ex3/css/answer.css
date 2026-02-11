@@ -90,9 +90,8 @@
         font-size:var(--base-tab) ;
     }
     .banner h1 {
-        color: white;
-        font-size: 2.7rem;
-        line-height: 100%;
+        font-size: 50px; 
+        /* 모바일, 태블릿, 모니터 다 같아서 그냥 50px쓰면됨 */
     }
     .common-frame {
         width: auto;
@@ -114,5 +113,9 @@
 @media (max-width:768px){
     html{
         font-size:var(--base-mobile) ;
+    }
+    .common-frame {
+        width: auto;
+        margin: 0 1rem;
     }
 }
