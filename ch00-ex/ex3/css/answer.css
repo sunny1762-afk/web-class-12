@@ -116,10 +116,17 @@
         display: flex;
         flex-direction: column;      
     }
-         .cafe figure {
+         /* .cafe figure {
         flex: 1;
         height: 200px;
         line-height: 0;
+    } */
+    .cafe figure img{
+        max-width: 100%;;
+        height: initial;
+        aspect-ratio: 365 / 200;
+        object-fit: cover;
+        border-radius: 1rem;
     }
     .deco-title{
         font-size: 50px;
