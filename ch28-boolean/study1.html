@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boolean</title>
+</head>
+<body>
+    <h1>boolean - 참 거짓데이터</h1>
+    <p>조건을 걸 때</p>
+    <script>
+        10>2 //true
+        10<2 //false
+        10>=2 //true 10이 2보다 크거나 같다.
+        10<=2 //false 10이 2보다 작거나 같다.
+        10==10 //true 10은 10과 같다. 
+        10===10 //true 10이 10과 데이터 형태까지 모두 같다.(엄격한 비교)
+        10!=1 //true 10은 1과 같지않다. 
+        console.log(!(10>2)) //false.0
+        console.log(10>2)
+        console.log(10>=2)
+
+        //false로 간주되는경우***********외워 ㅋ
+        0 //수가 없는경우
+        "" //변수가 값이없는경우
+        let a //초기화값이없는경우
+        undefined 
+        null // 비우다,없다
+
+
+        -12 //true
+        !-12 //false
+        !"" //true
+        !a //true
+
+        let b = null //b라는 값을만들어서 비우다. ex) null(청소함)의 전에는 undefined(입주전)
+
+
+    </script>
+</body>
+</html>

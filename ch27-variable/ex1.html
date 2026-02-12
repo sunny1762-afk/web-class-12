@@ -24,8 +24,10 @@
         
         let scoreSum = korean+english+math+society
         let scoreA = (scoreSum/4).toFixed(2)
+        let scoreANumber = scoreSum/4
+        let grade = scoreANumber>=90?"1등급":scoreANumber>=80?"2등급":scoreANumber>=70?"3등급":"4등급"
 
-        document.write("<p>["+name+"님의] 평균점수는"+scoreA+"점입니다.</p>")
+        document.write(`<p>[${name}님의]평균점수는 [${scoreA}]점 입니다. [${grade}]입니다.<p>`)
     </script>
 </body>
 </html>
