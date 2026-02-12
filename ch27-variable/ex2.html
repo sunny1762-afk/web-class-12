@@ -15,7 +15,7 @@
         <script>
             let userName = prompt("이름을 입력해주시오")
             let userWeight = Number(prompt("몸무게 입력해주시오"))
-            let userheight = Number(prompt("키를 입력해주시오"))
+            let userHeight = Number(prompt("키를 입력해주시오"))
             let userBmi = (userWeight / Math.pow(userheight/100,2)).toFixed(2)
             let Bmi = userWeight / Math.pow(userheight/100,2)
             let Aver = Bmi>=18.5?"정상":Bmi>=23?"과체중":Bmi>=25?"비만":"저체중"
@@ -29,7 +29,7 @@
                 <dd>${userWeight}kg</dd>
 
                 <dt>키</dt> 
-                <dd>${userheight}cm</dd>
+                <dd>${userHeight}cm</dd>
 
                 <dt>bmi</dt>
                 <dd>${userBmi}</dd>
