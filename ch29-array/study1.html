@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array-배열</title>
+</head>
+<body>
+    <p>연관된 데이터의 집합</p>
+    <script>
+        let a = ["사과","배","귤","수박"] //왼쪽부터 0,1,2,3번째 원소로 구분(순번)
+        console.log(a[0][1]) // 과 
+        //*순번대괄호[]. index box. 0번째 원소를 선택한다.
+        console.log(a[2])
+        console.log(a.length)
+        let b =[
+            1,
+            2,
+            3,
+            4
+        ][3] //4 *index가 두번째 있으면 앞에있는건 문자열 or 배열인가부다. 하면 됨. 경우의수는 두가지
+
+        a[b[3]] //undefined * a[4] = 없슈
+        a[b[3]?1:2].length //1 *a[4?1:2]=a[1]=배=1
+        let c=[
+            "장윤서",
+            "이은지",
+            "김선영",
+            "김가희",
+            "최예슬"
+        ]
+        c[0] // 장윤서
+        c[4] // 최예슬
+        c[1].length // 3
+        c[2][1]+c[3][2] // 선희
+
+        (!c[3]||!c[4]||c[1])[0] // 이
+        let d = 0||0||0
+        console.log(d)
+
+        let person1 = ["정현진","남자","infp",170,77,false,["게임","독서","러닝"]]
+        person1[0] // "정현진"
+        person1[3] // 170
+        person1[5] ? "기혼":"미혼 " //"미혼"
+        person1[6][2][1] // "닝"
+        
+    </script>
+</body>
+</html>
